@@ -6,9 +6,8 @@
     font-family: "Roboto", serif;
 }
 .wrapper{
-    display: flex;
-    height: 90vh;
-    align-items: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 .container{
     margin: 0 auto;

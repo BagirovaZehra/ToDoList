@@ -21,7 +21,7 @@ inputIcon.addEventListener("mouseout",()=>{
 
 addBtn.addEventListener("click",()=>{
     if(input.value==""){
-      alert("yalnis deyer")
+      alert("Yalnış dəyər daxil edilib")
       inputContainer.style.display="block"
     }
     else{
