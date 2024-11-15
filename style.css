@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.wrapper{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.container{
+    margin: 0 auto;
+   width: 336px;
+   border: 1px solid #C4C4C4;
+   border-radius: 10px;
+
+}
+.yellow{
+    background-color: #FFDC40;
+    height: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon-first {
+    display: flex;
+    margin-right: 27px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.input-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 286px;
+    height: 35px;
+    margin-left:25px ;
+    margin-top: 20px;
+  }
+  
+  input{
+    border: none;
+    display: inline-block;
+    width: 236px;
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 20px;
+  }
+  input:focus{
+    outline: none;
+  }
+  .icon-x {
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    cursor: pointer;
+  }
+ 
+  .custom-button {
+    width: 150px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #833AE0;
+    margin: 20px auto;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #9953F1; 
+    border-radius: 50%;
+  }
+  
+  .text {
+    margin-left: 10px;
+  }
+  .lists{
+    width: 286px;
+    margin-top: 10px;
+    display: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-left:25px ;
+  }
+
+  .list-element{
+    word-break: break-all;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 10px;
+    padding-right: 21px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.list-x{
+   width: 20px;
+   height: 20px;
+   border-color: #C4C4C4;
+   color: #C4C4C4;
+   padding-right: 2px;
+   border-radius: 100%;
+}
+
+  
+  
+  
