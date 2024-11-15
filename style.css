@@ -40,8 +40,12 @@ h1{
 .input-container {
   border: 1px solid #ccc;
   border-radius: 10px;
+  display: flex;
+
+  
   width: 286px;
-    height: 35px;
+    height: 40px;
+    padding-top: 5px;
     margin-left:25px ;
     margin-top: 20px;
   }
@@ -52,15 +56,25 @@ h1{
     width: 236px;
     padding-left: 5px;
     border-radius: 10px;
-    height: 20px;
+    height: 25px;
   }
   input:focus{
     outline: none;
   }
   .icon-x {
-    width: 25px;
-    height: 25px;
-    padding-top: 7px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+ 
+  .icon-x img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    /* left: 1px; */
     cursor: pointer;
   }
  
@@ -108,15 +122,17 @@ h1{
     padding-right: 21px;
     display: flex;
     justify-content: space-between;
+    gap: 5px;
+    align-items: center;
   }
 
 
 .list-x{
-   width: 20px;
-   height: 20px;
+   width: 21px;
+   height: 21px;
    border-color: #C4C4C4;
    color: #C4C4C4;
-   padding-right: 2px;
+   margin-right: 3px;
    border-radius: 100%;
 }
 

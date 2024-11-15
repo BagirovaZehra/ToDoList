@@ -5,7 +5,7 @@ let list  =document.createElement("ul");
 let inputContainer = document.querySelector(".input-container");
 let iconAdd = document.querySelector(".icon");
 let iconFirst = document.querySelector(".icon-first img");
-let inputIcon = document.querySelector(".icon-x");
+let inputIcon = document.querySelector(".icon-x img");
 const itemArr = [];
 
 inputIcon.addEventListener("click",()=>{
@@ -41,6 +41,7 @@ function addTodo(){
     const imgIconX = document.createElement("img");
   
       imgIconX.src="./images/Group59.svg";
+      imgIconX.alt="deleteIcon";
       imgIconX.classList.add("list-x")
       listItem.append(imgIconX)
       listItem.classList.add("list-element")
@@ -97,6 +98,7 @@ iconFirst.addEventListener("click",()=>{
     iconFirst.style.display="none";
     let iconSecond = document.createElement("img");
     iconSecond.src = "./images/Group90.svg";
+    iconSecond.alt = "secondIcon";
     document.querySelector(".icon-first").append(iconSecond);
     let isTrue=true;
     
